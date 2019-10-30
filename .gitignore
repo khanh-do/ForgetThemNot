@@ -1,0 +1,40 @@
+*.swp
+**/__pycache__
+*/__pycache__/*
+*.pyc
+*/__pycache__/*
+
+.python-version
+
+.vscode/
+
+*.log
+
+*/.env
+.env
+
+# dependencies
+client/node_modules/*
+client/.pnp
+client/.pnp.js
+server/node_modules/*
+
+# testing
+client/coverage
+
+# production
+client/build
+
+# misc
+*.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/yarn.lock
+client/package.json
+
+node_modules
