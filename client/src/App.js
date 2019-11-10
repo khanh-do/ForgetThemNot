@@ -18,6 +18,9 @@ function App() {
         >
           Hi Cam!
         </a>
+        <div>
+          Hi Kahnh
+        </div>
       </header>
     </div>
   );
