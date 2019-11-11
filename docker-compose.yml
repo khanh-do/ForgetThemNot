@@ -5,9 +5,7 @@ services:
     image: "postgres"
     container_name: "postgres"
     environment:
-      - POSTGRES_USER=khanh
-      - POSTGRES_PASSWORD=khanh1234
-      - POSTGRES_DB=mydb
+      - NODE_ENV=development
     ports:
       - "5432:5432"
     volumes:
