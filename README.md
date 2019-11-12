@@ -13,10 +13,10 @@ Install the frontend and backend Dependencies. <br />
 
 In the project root directory (containing the docker-compose.yml file), create an .env file (populate with values for username, password, dbname): <br />
 
-DB_HOST=localhost
-DB_USER=username
-DB_PASSWORD=password
-DB_NAME=dbname
+`DB_HOST=localhost`<br />
+`DB_USER=username`<br />
+`DB_PASSWORD=password`<br />
+`DB_NAME=dbname`<br />
 
 For the initial build, you can run in the project root directory (containing the docker-compose.yml file):<br />
 
