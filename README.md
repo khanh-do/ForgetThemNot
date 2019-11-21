@@ -3,7 +3,7 @@
 This web application helps users keep track of the recurring annual events in their lives, such as their loved ones' birthdays and anniversaries.<br />
 
 ## Available Scripts
-- Install the frontend and backend Dependencies
+Install the frontend and backend Dependencies. <br />
 
 `cd client`<br />
 `npm install`<br />
@@ -11,7 +11,14 @@ This web application helps users keep track of the recurring annual events in th
 `cd server`<br />
 `npm install`<br />
 
-For the initial build, you can run in the project directory (containing the docker-compose.yml file):<br />
+In the project root directory (containing the docker-compose.yml file), create an .env file (populate with values for username, password, dbname): <br />
+
+`DB_HOST=localhost`<br />
+`DB_USER=username`<br />
+`DB_PASSWORD=password`<br />
+`DB_NAME=dbname`<br />
+
+For the initial build, you can run in the project root directory (containing the docker-compose.yml file):<br />
 
 ### `docker-compose up -d --build`
 
@@ -31,11 +38,11 @@ Use the `8081` port to send a cURL request to the container.<br />
 
 Database:<br />
 
-For Ubuntu 16.04 and 18.04, install PostgreSQL client
-Use the `5432` port to 
+For Ubuntu 16.04 and 18.04, install PostgreSQL client. 
+Use the `5432` port to interact with the database.
 
 `apt-get install postgresql-client`<br />
-`psql -h localhost -p 5432 -U khanh -d mydb`<br />
+`psql -h localhost -p 5432 -U <username> -d <database name>`<br />
 
 
 After the initial build, you can run in the project directory (containing the docker-compose.yml file):<br />
